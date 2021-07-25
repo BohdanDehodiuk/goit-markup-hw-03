@@ -26,6 +26,7 @@
   --logo-studio-footer: #ffffff;
   --logo-studio-header: #212121;
   --hero-title-color: #ffffff;
+  --team-pic-bg-color: #ffffff;
 }
 
 body {
@@ -62,6 +63,11 @@ ul {
   margin-left: auto;
   margin-right: auto;
   border: 1px solid rgba(223, 30, 30, 0.925);
+}
+.header-index {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ececec;
 }
 /* Стилизирует Лого */
 .nav-logo {
@@ -194,6 +200,14 @@ ul {
 }
 
 /* Стилизация наша команда */
+.team-item {
+  background-color: var(--team-pic-bg-color);
+  width: 270px;
+  text-align: center;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
 .conteiner.team {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -263,10 +277,11 @@ ul {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.main-portfolio {
+.conteiner.work {
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 114px;
 }
+
 .filter-btn {
   font-family: Roboto;
   background-color: var(--btn-primari-btg-color);
