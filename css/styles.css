@@ -69,6 +69,10 @@ ul {
   border-bottom-style: solid;
   border-bottom-color: #ececec;
 }
+.main-nav {
+  display: flex;
+  align-items: center;
+}
 /* Стилизирует Лого */
 .nav-logo {
   text-decoration: none;
@@ -83,13 +87,38 @@ ul {
 .logo-studio {
   color: var(--logo-studio-header);
 }
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+.nav {
+  display: flex;
+}
+/* Стилизация флексом хедера */
+.nav-list {
+  display: flex;
+}
+.nav-list .nav-item {
+  outline: 1px solid red;
+  /* margin-right: 50px; */
+}
+/* .nav-list .nav-item:not(:first-child) {
+  margin-right: 50px;
+} */
+.nav-list .nav-item + .nav-item {
+  margin-left: 50px;
+}
+
 /* Стилизирует ссылки в хедере */
 .nav-link {
+  display: block;
   color: var(--link-color);
   font-style: normal;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .nav-list .nav-link:hover,
 .nav-list .nav-link:focus {
@@ -102,7 +131,18 @@ ul {
 .nav-list .nav-link {
   text-decoration: none;
 }
+
 /* Стилизирует ссылки авторизации */
+.auth-list {
+  display: flex;
+}
+.auth-item {
+  outline: 1px solid red;
+  /* margin-right: 50px; */
+}
+.auth-list .auth-item + .auth-item {
+  margin-left: 50px;
+}
 .auth-link {
   color: var(--auth-link-color);
   font-style: normal;
