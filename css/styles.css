@@ -30,7 +30,7 @@
 }
 /* Стилизация Боди */
 body {
-  width: 1583px;
+  /* width: 1583px; */
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
@@ -63,7 +63,7 @@ ul {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* border: 1px solid rgba(223, 30, 30, 0.925); */
+  border: 1px solid rgba(223, 30, 30, 0.925);
 }
 /* Стилизация хедера */
 .header-index {
@@ -82,6 +82,8 @@ ul {
   font-style: normal;
   font-size: 26px;
   line-height: 1.2;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .nav-logo {
   color: var(--logo-web-color);
@@ -142,6 +144,8 @@ ul {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .auth-link:hover,
@@ -157,6 +161,8 @@ ul {
 .hero {
   background-color: var(--secondary-background-color);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   color: var(--hero-title-color);
@@ -208,7 +214,7 @@ ul {
   margin-bottom: 50px;
 }
 /* Стилизирует наши преимущества */
-.conteiner.benefits {
+.benefits {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -237,7 +243,7 @@ ul {
 }
 
 /* Стилизация чем мы занимаемся */
-.conteiner.hobbi {
+.hobbi {
   padding-bottom: 94px;
 }
 .work-list {
@@ -251,6 +257,10 @@ ul {
 }
 
 /* Стилизация наша команда */
+.our-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .team-list {
   display: flex;
 }
@@ -266,10 +276,6 @@ ul {
 }
 .team-list .team-item:last-child {
   margin-right: 0px;
-}
-.conteiner.team {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .section-team {
@@ -293,9 +299,19 @@ ul {
 }
 /* Стилизация футтер */
 .footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
   background-color: var(--secondary-background-color);
+}
+.footer-logo {
+  display: block;
+  color: var(--logo-web-color);
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.2;
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .footer-web {
   color: var(--logo-web-color);
@@ -309,11 +325,17 @@ ul {
   font-weight: normal;
   line-height: 1.7;
 }
+.address-list{
+  display: block;
+  margin-bottom: 60px;
+}
 .address-link {
   color: var(--address-link-color);
   font-style: normal;
   font-weight: normal;
   line-height: 1.7;
+  padding-top: 9px;
+}
 }
 .address-item .address-link:hover,
 .address-item .address-link:focus {
