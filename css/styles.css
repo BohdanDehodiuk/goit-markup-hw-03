@@ -63,7 +63,6 @@ ul {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid rgba(223, 30, 30, 0.925);
 }
 /* Стилизация хедера */
 .header-index {
@@ -300,6 +299,8 @@ ul {
 /* Стилизация футтер */
 .footer {
   background-color: var(--secondary-background-color);
+  padding-top: 40px;
+  padding-bottom:  60px;
 }
 .footer-logo {
   display: block;
@@ -309,7 +310,6 @@ ul {
   font-style: normal;
   font-size: 26px;
   line-height: 1.2;
-  margin-top: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -327,7 +327,6 @@ ul {
 }
 .address-list{
   display: block;
-  margin-bottom: 60px;
 }
 .address-link {
   color: var(--address-link-color);
