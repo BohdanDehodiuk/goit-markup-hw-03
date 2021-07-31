@@ -299,7 +299,7 @@ ul {
 /* Стилизация футтер */
 .footer {
   background-color: var(--secondary-background-color);
-  padding-top: 40px;
+  padding-top: 60px;
   padding-bottom:  60px;
 }
 .footer-logo {
