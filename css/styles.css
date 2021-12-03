@@ -350,6 +350,7 @@ ul {
 .address-list .address-item:last-child{
   margin-bottom: 0px;
 }
+/* Стилизация портфолио */
 .portfolio-section{
   padding-top: 94px;
   padding-bottom: 94px;
@@ -405,7 +406,7 @@ ul {
 .filter-list {
   padding-bottom: 50px;
 }
-/* Стилизация портфолио */
+/* Стилизация списка портфолио */
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
